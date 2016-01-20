@@ -23,8 +23,6 @@ RUN apk --update add --virtual verify gpgme \
 
 WORKDIR /
 
-ENV VAULT_ADDR http://127.0.0.1:8200
-
 EXPOSE 8200
 
 
